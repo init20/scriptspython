@@ -26,7 +26,8 @@ MIFAREReader = MFRC522.MFRC522()
 # mensajes iniciales
 print "Permanezca tarjeta hasta que se apague la luz verde."
 print "Presione Ctrl-C para detener."
-key = [0xA0,0xA1,0xA2,0xA3,0xA4,0xA5]
+###cambiar key
+key = [0x??,0x??,0x??,0x??,0x??,0x??]
 GPIO.setwarnings(False)
 #id capturador -> asociado a facultad y sala
 id_capturador="ING301"
